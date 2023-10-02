@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -6,7 +12,7 @@ body {
 .batata {
     display: flex;
     width: 100%;
-    max-width: 50%;
+    max-width: 62%;
     height: 80vh;
     margin: auto;
 }
@@ -14,46 +20,83 @@ body {
     display: flex;
     width: 100%;
 }
-#conteudo2 {
+
     
-}
 .container00 {
-    height: 650px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: #c358ed;
-    width: 400px;
+    width: 100%;
+    margin-right: 10px;
     color: white
+}
+.container00 h1{
+    margin-bottom: 10px;
+    font-size: 2.5rem;  
+}
+.container00 h3{
+    font-size: 16px;
 }
 .linha1 {
     display: flex;
     width: 600px;
     height: 200px;
+    gap: 10px;
+    margin-bottom:11px;
 }
 .container01 {
     background-color: #70d9b8;
     width: 30%;
 }
+.container01 h1{
+    text-align: end;
+    padding: 10px;
+}
 .container02 {
     background-color: #2eb2ff;
     width: 100%;
+   
+}
+
+.container02 h1{
+    text-align: end;
+    padding: 10px;
 }
 .linha2 {
     display: flex;
     width: 600px;
     height: 300px;
+    gap: 10px;
+    margin-bottom: 10px;
+
 }
 .container03 {
     background-color: #44d9e6;
     height: 100%;
     width: 55%;
 }
+.container03 h1{
+    text-align: end;
+    padding: 10px;
+}
+
 .container04 {
     background-color: #ff5c5c;
     height: 100%;
     width: 45%;
 }
+.container04{
+    text-align: end;
+    padding: 10px;
+}
 .container05 {
     background-color: #ffbd4a;
     width: 600px;
-    height: 150px;
-    margin: 0;
+    height: 155px;
+    gap: 11px;   
+}
+.container05 h1{
+    text-align: end;
+    padding: 10px;
 }
